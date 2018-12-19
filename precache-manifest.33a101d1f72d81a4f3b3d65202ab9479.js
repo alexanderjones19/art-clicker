@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/art-clicker/static/css/main.b41b7519.chunk.css"
   },
   {
-    "revision": "4ffceae4e4ba24949d49e85a17a05ab9",
+    "revision": "caf5a7f9fe505316bc9ade49fb9f1afd",
     "url": "/art-clicker/index.html"
   }
 ];
