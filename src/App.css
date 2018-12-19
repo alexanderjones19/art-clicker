@@ -14,6 +14,8 @@ body {
 
 main {
   flex: 1 0 auto;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 .paintings {
@@ -23,6 +25,7 @@ main {
   background-size: cover;
   background-position: center;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .nav-items {
@@ -30,4 +33,13 @@ main {
   text-align: center;
   display: inline-block;
   font-size: calc(10px + 14 * (100vw - 320px)/ 800);
+  font-family: 'Raleway', sans-serif;
+}
+
+#header-title {
+  font-family: 'Cinzel', serif;
+}
+
+#header-subtext {
+  font-family: 'Raleway', sans-serif;
 }
