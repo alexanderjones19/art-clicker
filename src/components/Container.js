@@ -50,7 +50,8 @@ class Container extends Component {
   checkForWin = id => {
     if (this.state.score < 12) {
       this.setState(prevState => ({
-        guessed: [...prevState.guessed, id]
+        guessed: [...prevState.guessed, id],
+        message: 'Good! Keep going!'
       }));
       this.shuffleImages(this.state.images);
     }
@@ -58,7 +59,6 @@ class Container extends Component {
       this.setState({
         message: 'You win!'
       });
-      //win things
     }
     else {
       this.gameOver();
@@ -70,38 +70,38 @@ class Container extends Component {
       score: 0,
       highScore: this.state.highScore,
       guessed: [],
-      message: 'Try it again!',
+      message: 'Oops! Try again!',
     });
     this.shuffleImages(this.state.images);
   };
 
   render() {
     return (
-      <div>
+      <div className="page-flexbox-wrapper">
         <Navbar
           score={this.state.score}
           highScore={this.state.highScore}
           message={this.state.message}
         />
-        <div className="row">
+        <Header/>
+        <main>
           <div className="container">
-            <Header/>
+            <div className="section">
+              <div className="row">
+                {this.state.images.map(image => (
+                  <Card
+                    id={image.id}
+                    key={image.id}
+                    image={image.image}
+                    clicked={image.clicked}
+                    imageClick={this.imageClick}
+                    gameOver={this.gameOver}
+                  />
+                ))}
+              </div>
+            </div>
           </div>
-        </div>
-        <div className="row">
-          <div className="container">
-            {this.state.images.map(image => (
-              <Card
-                id={image.id}
-                key={image.id}
-                image={image.image}
-                clicked={image.clicked}
-                imageClick={this.imageClick}
-                gameOver={this.gameOver}
-              />
-            ))}
-          </div>
-        </div>
+        </main>
         <Footer/>
       </div>
     );
