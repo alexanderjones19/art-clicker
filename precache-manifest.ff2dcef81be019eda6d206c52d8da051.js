@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/art-clicker/static/js/runtime~main.aee3106c.js"
   },
   {
-    "revision": "bba87d522e59ee990ac8",
-    "url": "/art-clicker/static/js/main.bba87d52.chunk.js"
+    "revision": "4d47f5ed7accf2596ee5",
+    "url": "/art-clicker/static/js/main.4d47f5ed.chunk.js"
   },
   {
     "revision": "724fb07e0ed781108fd3",
     "url": "/art-clicker/static/js/1.724fb07e.chunk.js"
   },
   {
-    "revision": "bba87d522e59ee990ac8",
-    "url": "/art-clicker/static/css/main.b41b7519.chunk.css"
+    "revision": "4d47f5ed7accf2596ee5",
+    "url": "/art-clicker/static/css/main.4ca37bec.chunk.css"
   },
   {
-    "revision": "caf5a7f9fe505316bc9ade49fb9f1afd",
+    "revision": "2bce6ec7b6de85eb1d5bbce2f3568d06",
     "url": "/art-clicker/index.html"
   }
 ];

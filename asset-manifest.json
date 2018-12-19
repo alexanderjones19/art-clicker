@@ -1,13 +1,13 @@
 {
-  "main.css": "/art-clicker/static/css/main.b41b7519.chunk.css",
-  "main.js": "/art-clicker/static/js/main.bba87d52.chunk.js",
-  "main.js.map": "/art-clicker/static/js/main.bba87d52.chunk.js.map",
+  "main.css": "/art-clicker/static/css/main.4ca37bec.chunk.css",
+  "main.js": "/art-clicker/static/js/main.4d47f5ed.chunk.js",
+  "main.js.map": "/art-clicker/static/js/main.4d47f5ed.chunk.js.map",
   "static/js/1.724fb07e.chunk.js": "/art-clicker/static/js/1.724fb07e.chunk.js",
   "static/js/1.724fb07e.chunk.js.map": "/art-clicker/static/js/1.724fb07e.chunk.js.map",
   "runtime~main.js": "/art-clicker/static/js/runtime~main.aee3106c.js",
   "runtime~main.js.map": "/art-clicker/static/js/runtime~main.aee3106c.js.map",
-  "static/css/main.b41b7519.chunk.css.map": "/art-clicker/static/css/main.b41b7519.chunk.css.map",
+  "static/css/main.4ca37bec.chunk.css.map": "/art-clicker/static/css/main.4ca37bec.chunk.css.map",
   "index.html": "/art-clicker/index.html",
-  "precache-manifest.33a101d1f72d81a4f3b3d65202ab9479.js": "/art-clicker/precache-manifest.33a101d1f72d81a4f3b3d65202ab9479.js",
+  "precache-manifest.ff2dcef81be019eda6d206c52d8da051.js": "/art-clicker/precache-manifest.ff2dcef81be019eda6d206c52d8da051.js",
   "service-worker.js": "/art-clicker/service-worker.js"
 }
